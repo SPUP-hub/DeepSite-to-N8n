@@ -5,16 +5,23 @@ Ce dépôt rassemble tous les prompts, modèles et composants utilisés avec Dee
 # 📌 Contenu
 
 Prompts optimisés (landing, blogs, funnels…)
+
 Structures HTML/CSS générées automatiquement
+
 Blocs préfabriqués (carousel, testimonials, pricing…)
+
 Templates multi-secteurs
+
 Scripts JS associés
 
 # 📁 Structure recommandée
 
 /prompts → Par type de site 
+
 /components → Blocs HTML 
+
 /outputs → Sites générés 
+
 /meta → README, historique
 
 # 🎯 Objectif 
