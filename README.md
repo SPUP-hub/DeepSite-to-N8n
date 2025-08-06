@@ -1,33 +1,38 @@
 # DeepSite-to-N8n
 
-Ce dépôt regroupe les **résultats générés par DeepSite**, à partir des prompts du dépôt `GPT-to-DeepSite`.  
-Il contient les **pages HTML, blocs réutilisables, composants CSS et JS**, prêts à être injectés dans des workflows N8n pour un déploiement automatisé.
+Ce dépôt regroupe les **résultats HTML/CSS/JS générés par DeepSite**, à partir des prompts issus du dépôt `GPT-to-DeepSite`.  
+Il contient les composants, templates et scripts prêts à être injectés dans des workflows N8n pour automatiser le déploiement de sites.
 
 ---
 
 ## 🎯 Objectif
 
-Structurer une bibliothèque réutilisable, modulable et connectable dans N8n :
+Créer une **bibliothèque modulaire et interopérable** :
 
-- Blocs HTML prêts à l’emploi (carousel, header, testimonials, CTA…)
-- Pages complètes générées via DeepSite
-- Scripts dynamiques et snippets JS utiles pour enrichir les templates
+- Blocs HTML/CSS prêts à l’emploi
+- Templates dynamiques pour Kajabi, WordPress ou SaaS custom
+- Scripts d’intégration (DeepSite → N8n → Hostinger/Vercel)
+- Préparation RGPD, SEO et accessibilité
+- Base de données pour automatiser le déploiement depuis Olympus
 
 ---
 
-## 📁 Arborescence
+## 📁 Structure recommandée
 
-- `/components/` : tous les blocs HTML/CSS générés
-- `/outputs/` : pages complètes (index.html, landing.html…)
-- `/meta/` : fichiers annexes (README, journal de génération, logs…)
+- `/sites/` → Un dossier par site ou domaine final
+- `/templates/` → Templates modulaires HTML, WordPress, Kajabi…
+- `/scripts/` → Scripts d’export, intégration N8n, injection balises
+- `/deploy/` → Préparations spécifiques à Hostinger, Vercel, S3
+- `/meta/` → README, changelogs, glossaire, versions
 
 ---
 
 ## 🔄 Connexions
 
-- Dépôt source : `GPT-to-DeepSite`
+- Prompt source : `GPT-to-DeepSite`
+- Génération : via DeepSite V2
+- Automatisation : via modules N8n et Olympus
 - Dépôt parent : `SPUP-hub`
-- Déploiement : destiné à être utilisé dans les workflows N8n via automatisation Olympus
 
 Mainteneur : Stéphane Pariente  
 Organisation : SPUP-hub
