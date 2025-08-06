@@ -18,11 +18,10 @@ Scripts JS associés
 
 # 📁 Structure recommandée
 
-- `/agents/` →
-- /prompts/` → Par type de site 
-- /components/` → Blocs HTML 
-- /outputs/` → Sites générés 
-- /meta/` → README, historique
+- `/prompts/` → Par type de site 
+- `/components/` → Blocs HTML 
+- `/outputs/` → Sites générés 
+- ``/meta/`` → README, historique
 
 
 # 🎯 Objectif 
