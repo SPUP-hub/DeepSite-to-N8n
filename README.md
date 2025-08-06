@@ -2,6 +2,7 @@
 
 Ce dépôt rassemble tous les prompts, modèles et composants utilisés avec DeepSite pour la génération automatique de sites web.
 
+
 # 📌 Contenu
 
 Prompts optimisés (landing, blogs, funnels…)
@@ -14,6 +15,7 @@ Templates multi-secteurs
 
 Scripts JS associés
 
+
 # 📁 Structure recommandée
 
 /prompts → Par type de site 
@@ -23,6 +25,7 @@ Scripts JS associés
 /outputs → Sites générés 
 
 /meta → README, historique
+
 
 # 🎯 Objectif 
 
